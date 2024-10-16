@@ -16,6 +16,7 @@
 
 #include <memory>
 #include <functional>
+#include <string>
 
 namespace boost {
 namespace asio {

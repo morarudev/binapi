@@ -1,0 +1,13 @@
+{
+  "name": "binapi",
+  "version": "0.1",
+  "dependencies": [
+    "boost-algorithm",
+    "boost-asio",
+    "boost-beast",
+    "boost-callable-traits",
+    "boost-format",
+    "boost-multiprecision",
+    "boost-variant"
+  ]
+}

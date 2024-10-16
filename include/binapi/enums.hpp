@@ -13,6 +13,8 @@
 #define __binapi__enums_hpp
 
 #include <cstdint>
+#include <iosfwd>
+#include <cstddef>
 
 namespace binapi {
 
