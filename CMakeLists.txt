@@ -23,11 +23,10 @@ target_include_directories(binapi PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 target_compile_options(binapi PUBLIC
 /bigobj -pipe 
-        $<$<CONFIG:DEBUG>:-g3 -fno-inline -fstack-protector-all -fsanitize=address>
+        $<$<CONFIG:DEBUG>:-g3 -fno-inline -fstack-protector-all>
         $<$<CONFIG:RELEASE>:-O3 -s>)
 
-target_link_options(binapi PUBLIC
-        $<$<CONFIG:DEBUG>:-fsanitize=address>)
+#target_link_options(binapi PUBLIC $<$<CONFIG:DEBUG>:-fsanitize=address>)
 
 target_link_libraries(binapi PUBLIC
         ZLIB::ZLIB

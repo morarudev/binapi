@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\examples\websockets\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\pairslist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\reports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\src\websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\examples\websockets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{42F1B323-9330-3636-96DF-26DC1F5EBB9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

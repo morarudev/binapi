@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Trading\Sources\OdinTradeMaster\OdinTradeMaster\OdinTradeMaster\binapi\examples\websockets\build\CMakeFiles\d3adcbffb7720e1e5a7f6a6a35184681\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{727EBF16-0BB0-39D1-977E-90ABC1C8763E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

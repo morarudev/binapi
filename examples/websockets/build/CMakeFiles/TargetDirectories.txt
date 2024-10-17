@@ -1,0 +1,3 @@
+D:/Trading/Sources/OdinTradeMaster/OdinTradeMaster/OdinTradeMaster/binapi/examples/websockets/build/CMakeFiles/websockets.dir
+D:/Trading/Sources/OdinTradeMaster/OdinTradeMaster/OdinTradeMaster/binapi/examples/websockets/build/CMakeFiles/ALL_BUILD.dir
+D:/Trading/Sources/OdinTradeMaster/OdinTradeMaster/OdinTradeMaster/binapi/examples/websockets/build/CMakeFiles/ZERO_CHECK.dir
