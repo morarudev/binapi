@@ -130,7 +130,7 @@ websockets::handle websockets::markets(on_markets_received_cb cb)
 
 /*************************************************************************************************/
 
-websockets::handle websockets::book(const char *pair, on_book_received_cb cb)
+BINAPI_API websockets::handle websockets::book(const char *pair, on_book_received_cb cb)
 { return pimpl->start_channel(pair, "bookTicker", std::move(cb)); }
 
 /*************************************************************************************************/

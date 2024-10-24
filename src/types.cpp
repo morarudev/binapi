@@ -754,14 +754,14 @@ exchange_info_t exchange_info_t::construct(const flatjson::fjson &json) {
             sym.filters.push_back(std::move(filter));
         }
 
-        const auto permissions = sit.at("permissions");
+       /* const auto permissions = sit.at("permissions");
         assert(permissions.is_array());
         res.permissions = 0u;
         for ( auto idx = 0u; idx < permissions.size(); ++idx ) {
             const auto sflag = permissions.at(idx).to_sstring();
             std::size_t flag = static_cast<std::size_t>(e_permissions_from_string(sflag.data()));
             res.permissions |= flag;
-        }
+        }*/
 
         std::string symbol = sym.symbol;
         res.symbols.emplace(std::move(symbol), std::move(sym));

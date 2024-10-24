@@ -283,7 +283,7 @@ struct websocket_id_getter {
 
 
 
-class BINAPI_API websockets final {
+struct BINAPI_API websockets final {
 public:
     websockets(const websockets &) = delete;
     websockets& operator= (const websockets &) = delete;
@@ -368,7 +368,7 @@ private:
 /*************************************************************************************************/
 /*************************************************************************************************/
 
-    struct websockets::impl {
+    struct impl {
         impl(
             boost::asio::io_context& ioctx
             , std::string host
